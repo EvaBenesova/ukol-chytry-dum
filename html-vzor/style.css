@@ -1,8 +1,8 @@
 /* Google font Raleway */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;600&display=swap');
 
 /* Moderní box model */
-html { box-sizing: border-box; }
+/* html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 
@@ -18,9 +18,9 @@ body {
 
 .container {
 	display: flex;
-}
+} */ */
 
-.header {
+/* .header {
 	flex-shrink: 0;
 	width: 120px;
 	position: relative;
@@ -38,10 +38,10 @@ body {
 	transform: translate(-50%, -50%) rotate(-90deg);
 	white-space: nowrap;
 	color: white;
-}
+} */
 
 
-.dashboard {
+/* .dashboard {
 	flex: 1 0 auto;
 	display: grid;
 	grid-template-columns: 350px 350px;
@@ -55,7 +55,7 @@ body {
 	padding: 30px;
 	background-image: linear-gradient(to top, #c4c5c7ee 0%, #dcdddfee 50%, #ebebebee 100%);
 	border-radius: 4px;
-}
+} */
 
 
 /* tlačítka */
@@ -85,7 +85,7 @@ body {
 
 
 
-/* světla */
+/* světla
 .lights {
 	grid-area: lights;
 	display: grid;
@@ -130,7 +130,7 @@ body {
 .light__name {
 	flex: 1;
 	font-weight: bold;
-}
+} */
 
 
 
