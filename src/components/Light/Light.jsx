@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import './light.css';
 
 
-import lightIsOff from './images/light-off.svg';
-import lightIsOn from './images/light-on.svg'
+import lightOnIcon from './images/light-off.svg';
+import lightOffIcon from './images/light-on.svg'
 
 
 const Light = ( {name, state} ) => {
@@ -16,7 +16,7 @@ const Light = ( {name, state} ) => {
    return(
       <div onClick = {handleClick} className='light'>
          <div className='light__icon'>
-            <img src={lightOn === 'on' ? lightIsOn : lightIsOff}/>
+            <img src={lightOn === 'on' ? lightOnIcon : lightOffIcon}/>
          </div>
          <div className='light__name'>{name}</div>
       </div>
